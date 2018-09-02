@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Phaser练习题 | 大语文互动大屏API文档</title>
+    <meta name="description" content="大语文互动大屏常用的Phaser API、项目API">
+    <link rel="icon" href="/logo.png">
+    
+    <link rel="preload" href="/assets/css/22.styles.ae89e90f.css" as="style"><link rel="preload" href="/assets/js/app.e631bfe2.js" as="script"><link rel="preload" href="/assets/js/20.92e10eea.js" as="script"><link rel="prefetch" href="/assets/js/12.5ba61726.js"><link rel="prefetch" href="/assets/js/1.714089c2.js"><link rel="prefetch" href="/assets/js/2.537b29eb.js"><link rel="prefetch" href="/assets/js/3.60798e56.js"><link rel="prefetch" href="/assets/js/4.100288fc.js"><link rel="prefetch" href="/assets/js/5.10225db4.js"><link rel="prefetch" href="/assets/js/6.e16466ff.js"><link rel="prefetch" href="/assets/js/7.32a30dd5.js"><link rel="prefetch" href="/assets/js/8.75476a03.js"><link rel="prefetch" href="/assets/js/9.c252b270.js"><link rel="prefetch" href="/assets/js/10.2e74c6c3.js"><link rel="prefetch" href="/assets/js/11.db6cf6bd.js"><link rel="prefetch" href="/assets/js/0.f700dc77.js"><link rel="prefetch" href="/assets/js/13.5abcd15f.js"><link rel="prefetch" href="/assets/js/14.84fe53f6.js"><link rel="prefetch" href="/assets/js/15.58d070cb.js"><link rel="prefetch" href="/assets/js/16.01e99e41.js"><link rel="prefetch" href="/assets/js/17.d5b7a565.js"><link rel="prefetch" href="/assets/js/18.8153595f.js"><link rel="prefetch" href="/assets/js/19.15841565.js"><link rel="prefetch" href="/assets/js/21.33dd97d3.js">
+    <link rel="stylesheet" href="/assets/css/22.styles.ae89e90f.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div><a href="/" class="home-link router-link-active"><img src="/logo.png" class="logo"><span class="site-name can-hide">
+      大语文互动大屏API文档
+    </span></a><div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""><!----></div><!----></div></header><div class="sidebar-mask"></div><div class="sidebar"><!----><ul class="sidebar-links"><li><div class="sidebar-group first collapsable"><p class="sidebar-heading"><span>Phaser API</span><span class="arrow right"></span></p><!----></div></li><li><div class="sidebar-group collapsable"><p class="sidebar-heading"><span>项目API</span><span class="arrow right"></span></p><!----></div></li><li><div class="sidebar-group collapsable"><p class="sidebar-heading open"><span>练习题</span><span class="arrow down"></span></p><ul class="sidebar-group-items"><li><a href="/exercise/game-apple.html" class="active sidebar-link">Phaser练习题</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/exercise/game-apple.html#正式开始" class="sidebar-link">正式开始</a></li><li class="sidebar-sub-header"><a href="/exercise/game-apple.html#示例" class="sidebar-link">示例</a></li><li class="sidebar-sub-header"><a href="/exercise/game-apple.html#demo" class="sidebar-link">DEMO</a></li><li class="sidebar-sub-header"><a href="/exercise/game-apple.html#资源文件" class="sidebar-link">资源文件</a></li></ul></li></ul></div></li><li style="margin-top:1rem"><a href="http://phaser.io/docs/2.6.2/index" target="_blank" class="sidebar-link">官方文档<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path><polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li></ul></div><div class="page"><div class="content"><h1 id="phaser练习题"><a href="#phaser练习题" aria-hidden="true" class="header-anchor">#</a> Phaser练习题</h1><blockquote><p>为了让大家尽快的熟悉Phaser开发，特模拟以下场景。
+之前大家都玩过微信的“飞机大战” 游戏吧。本游戏类似“飞机大战”。</p></blockquote><p><strong>游戏名称：捡苹果</strong></p><p><strong>游戏玩法：</strong></p><ul><li>点击屏幕，启动游戏</li><li>随机从天空飘落不同颜色的苹果和炸弹。每种颜色的苹果代表的分值不一样，每捡到一个苹果播放不同的音效，加上相应的分值。如果捡到炸弹，则播放爆炸音效，且游戏结束。</li><li>滑动地面的人物，拾取天空掉落的苹果</li></ul><h5 id="提供demo地址，仅供游戏演示"><a href="#提供demo地址，仅供游戏演示" aria-hidden="true" class="header-anchor">#</a> 提供demo地址，仅供游戏演示</h5><h2 id="正式开始"><a href="#正式开始" aria-hidden="true" class="header-anchor">#</a> 正式开始</h2><h3 id="第一步：创建实例"><a href="#第一步：创建实例" aria-hidden="true" class="header-anchor">#</a> 第一步：创建实例</h3><ul><li>引入Phaser.js</li><li>创建游戏实例</li></ul><div class="language-js extra-class"><pre class="language-js"><code><span class="token comment">// 创建游戏实例</span>
+</code></pre></div><h3 id="第二步：定义场景"><a href="#第二步：定义场景" aria-hidden="true" class="header-anchor">#</a> 第二步：定义场景</h3><ul><li>定义每个场景的内容</li><li>将场景添加到游戏实例中</li></ul><p>说明：</p><ul><li>每个场景都是一个<code>function</code>。</li><li>通过<code>game.state.add</code>可以将场景添加到游戏</li></ul><h3 id="第三步：将场景串通"><a href="#第三步：将场景串通" aria-hidden="true" class="header-anchor">#</a> 第三步：将场景串通</h3><ul><li>具体定义每个场景的生命周期</li><li>从一个场景切换到另一个场景</li><li>启动游戏</li></ul><p>说明：
+每个场景都有自己的生命周期，常用的生命周期是<code>preload（加载）</code>、<code>create（准备就绪</code>）、<code>update（更新周期</code>）、<code>render</code>（渲染完成）</p><ul><li>preload - 尽管我们有预加载的场景，但如果你希望能缩短进入页面时加载的时间，可以分摊一些到其他场景，只需要在其他场景加入preload方法即可。</li><li>create - 如果存在preload方法，则会在加载完毕后执行此方法；否则将在进入该场景时直接执行此方法。</li><li>update - 更新周期自动执行的方法。</li><li>render - 渲染完毕后执行的方法。</li></ul><h2 id="示例"><a href="#示例" aria-hidden="true" class="header-anchor">#</a> 示例</h2><div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">var</span> width <span class="token operator">=</span> window<span class="token punctuation">.</span>innerWidth<span class="token punctuation">;</span>
+<span class="token keyword">var</span> height <span class="token operator">=</span> window<span class="token punctuation">.</span>innerHeight<span class="token punctuation">;</span>
+
+<span class="token comment">// 创建游戏实例</span>
+<span class="token keyword">var</span> game <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Phaser<span class="token punctuation">.</span>Game</span><span class="token punctuation">(</span>width<span class="token punctuation">,</span> height<span class="token punctuation">,</span> Phaser<span class="token punctuation">.</span><span class="token constant">AUTO</span><span class="token punctuation">,</span> <span class="token string">'#game'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token comment">// 定义场景</span>
+<span class="token keyword">var</span> states <span class="token operator">=</span> <span class="token punctuation">{</span>
+	<span class="token comment">// 加载场景</span>
+  preload<span class="token punctuation">:</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  	<span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function-variable function">preload</span> <span class="token operator">=</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+
+  	<span class="token punctuation">}</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token comment">// 开始场景</span>
+  created<span class="token punctuation">:</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function-variable function">create</span> <span class="token operator">=</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+<span class="token comment">// 启动游戏</span>
+game<span class="token punctuation">.</span>state<span class="token punctuation">.</span><span class="token function">start</span><span class="token punctuation">(</span><span class="token string">'preload'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre></div><h2 id="demo"><a href="#demo" aria-hidden="true" class="header-anchor">#</a> DEMO</h2><p><img src="/demo.png" alt="Image text"></p><h2 id="资源文件"><a href="#资源文件" aria-hidden="true" class="header-anchor">#</a> 资源文件</h2><p><a href="/assets.zip">资源文件</a></p></div><div class="page-edit"><!----><!----></div><div class="page-nav"><p class="inner"><span class="prev">
+        ← <a href="/project/getStuPortrait.html" class="prev">
+          获取头像
+        </a></span><!----></p></div></div></div></div>
+    <script src="/assets/js/20.92e10eea.js" defer></script><script src="/assets/js/app.e631bfe2.js" defer></script>
+  </body>
+</html>
